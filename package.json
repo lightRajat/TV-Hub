@@ -5,7 +5,8 @@
   "scripts": {
     "start": "electron .",
     "build": "npx vite build",
-    "produce": "rm -rf build/ && electron-builder"
+    "produce-linux": "rm -rf build/ && electron-builder --linux",
+    "produce-win": "rm -rf build/ && electron-builder --win"
   },
   "author": "Rajat",
   "license": "ISC",
