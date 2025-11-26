@@ -3,7 +3,7 @@ const appData = [
     {id: "music", link: "https://music.youtube.com/", iconPath: new URL("./icons/music.png", import.meta.url).href},
     {id: "mx", link: "https://www.mxplayer.in/", iconPath: new URL("./icons/mx.jpg", import.meta.url).href},
     {id: "anime", link: "https://hianime.nz/home", iconPath: new URL("./icons/anime.png", import.meta.url).href},
-    {id: "movie", link: "https://wvv-fmovies.com/", iconPath: new URL("./icons/movie.png", import.meta.url).href},
+    {id: "movie", link: "https://1movies.bz/home", iconPath: new URL("./icons/movie.png", import.meta.url).href},
     {id: "news", link: "https://www.youtube.com/embed/e1FIApIafWE?autoplay=1&controls=0&disablekb=1", iconPath: new URL("./icons/news.png", import.meta.url).href},
 ];
 const contentFrame = document.getElementById('contentFrame');
